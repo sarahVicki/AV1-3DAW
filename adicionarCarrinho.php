@@ -10,7 +10,7 @@
     
     $linha = "id;nome;preco;quantidade\n";
     
-    $linha = $id . ";" . $nome . ";" . $preco . ";" . $quantidade "\n";
+    $linha = $id . ";" . $nome . ";" . $preco . ";" . $quantidade . "\n";
     
     fwrite($arq,$linha);
 
